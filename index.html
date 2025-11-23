@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Asistente IA para Carrera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Asistente IA para Elegir Carrera</h2>
+
+    <label>¿Te gustan las matemáticas?</label>
+    <select id="matematicas">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select>
+
+    <label>¿Te gustan las computadoras?</label>
+    <select id="computadoras">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select>
+
+    <label>¿Prefieres trabajar con personas?</label>
+    <select id="gente">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select>
+
+    <label>¿Te consideras creativo?</label>
+    <select id="creatividad">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select>
+
+    <label>¿Te gustan las ciencias de la salud?</label>
+    <select id="salud">
+        <option value="si">Sí</option>
+        <option value="no">No</option>
+    </select>
+
+    <label>¿Prefieres trabajo de oficina o campo?</label>
+    <select id="oficina">
+        <option value="oficina">Oficina</option>
+        <option value="campo">Campo</option>
+    </select>
+
+    <button onclick="recomendar()">Recomendar carrera</button>
+
+    <div id="resultado" class="resultado"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
